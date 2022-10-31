@@ -1,0 +1,75 @@
+.CardContainer {
+    padding: 10px;
+    color: white;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.267);
+    margin: 20px;
+    font-family: 'Carter One', cursive;
+    width: 150px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px rgba(127, 153, 158, 0.694);
+    transition: all 400ms;
+
+}
+
+.CardContainer.fire {
+    background: linear-gradient(rgb(254, 150, 86), rgb(243, 62, 35));
+}
+
+.CardContainer.water {
+    background: linear-gradient(rgb(142, 174, 255), rgb(35, 108, 243));
+}
+
+.CardContainer.bug {
+    background: linear-gradient(rgb(90, 186, 103), rgb(69, 122, 47));
+}
+
+.CardContainer.flying {
+    background: linear-gradient(rgb(201, 237, 205), rgb(143, 182, 187));
+}
+
+.CardContainer.electric {
+    background: linear-gradient(rgb(252, 217, 102), rgb(239, 207, 4));
+}
+
+.CardContainer.normal {
+    background: linear-gradient(rgb(40, 71, 107), rgb(92, 106, 169));
+}
+
+.CardContainer.poison {
+    background: linear-gradient(rgb(201, 133, 243), rgb(163, 61, 194));
+}
+
+.CardContainer .CardImg {
+    top: 10px;
+    position: relative;
+}
+
+.CardContainer h4 {
+    font-size: 1.3rem;
+    position: relative;
+    top: 35px;
+
+}
+
+.CardContainer p {
+    font-size: 1rem;
+    position: relative;
+    bottom: 50px;
+
+}
+
+.CardContainer h5 {
+    font-size: 1rem;
+    position: relative;
+    bottom: 10px;
+
+}
+
+.CardContainer:hover {
+    transform: scale(1.2);
+}
